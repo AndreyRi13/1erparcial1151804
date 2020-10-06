@@ -12,7 +12,7 @@
         <header>
         <H1><img src="/img/hiclipart.com.png" alt="logo" width="150" height="150">COVID-19</H1>
         </header>
-        <section id="que es covid">
+        <section>
         <div class="row no-gutters">
             <div class="col col-md-8">
     
@@ -67,8 +67,8 @@ estos remitan al paciente al establecimiento sanitario adecuado.</p>
 
 </section>
 
-<script>
-function readTextFile(file, callback) {
+
+unction readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", file, true);
@@ -81,12 +81,12 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("https://www.datos.gov.co/resource/gt2j-8ykr.json", function(text){
+readTextFile("/Users/Documents/workspace/test.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
 });
 
-</script>
+
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

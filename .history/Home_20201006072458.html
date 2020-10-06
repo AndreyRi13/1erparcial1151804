@@ -12,7 +12,7 @@
         <header>
         <H1><img src="/img/hiclipart.com.png" alt="logo" width="150" height="150">COVID-19</H1>
         </header>
-        <section id="que es covid">
+        <section>
         <div class="row no-gutters">
             <div class="col col-md-8">
     
@@ -81,7 +81,7 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("https://www.datos.gov.co/resource/gt2j-8ykr.json", function(text){
+readTextFile("/Users/Documents/workspace/test.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
 });
